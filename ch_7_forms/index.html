@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
 </head>
-<body>
+<body style="background-color: lightblue;">
+<div style="font-family: Arial, sans-serif; padding: px;">
 <h1>lets learn forms</h1>
+<form action="/index.html">
+<background color: <input type="color" name="color" value="#ff0000">
 
-    
+<fieldset>
+    <legend>personal info</legend>
+    <label for="username">Username:</label>
+<input type="text" name="username" placeholder="Enter your username">
+<label for="password">Password:</label>
+<input type="password" name="password" placeholder="Enter your password">
+<label for="email">Email:</label>
+<input type="email" name="email" placeholder="Enter your email">
+<label for="age">Age:</label>
+<input type="number" name="age" placeholder="Enter your age">
+<label for="dob">Date of Birth:</label>
+<input type="date" name="dob" placeholder="Enter your date of birth">
+<br>
+<input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter
+<input type="radio" name="gender" value="male" checked> Male 
+<input type="radio" name="gender" value="female"> Female
+<input type="reset" value="Reset"> <br>
+
+<input type="submit" value="Submit">
+
+</form>
+ </div>
 </body>
 </html>
